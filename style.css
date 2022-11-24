@@ -1,3 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .content {
   margin-top: 40px;
 }
@@ -57,28 +62,66 @@
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-.class {
-    position: absolute;
-    width: 100vw;
+*{
+    margin: 0;
+    padding: 0;
 }
-.heading{
-    height: auto;
-    text-align: center;
-    font-size: 2rem;
-    font-family: Times New Roman;
-    font-weight: 900;
-    color: red;
-    background:linear-gradient(50deg,rgb(98,67,98),rgb(67,89,97));
-    padding: 20px;
-}
-.footer {
-    position:absolute;
+.scroller{
     width: 100%;
-    justify-content: center;
-    display: flex;
-    text-align:center;
-    border:solid black 1px;
-    color:rgb(78,90,36);
-    background:linear-gradient(50deg,rgb(98,67,98),rgb(67,89,97));
-    
+    background-color: rgb(151, 151, 245);
+    margin: 1rem;
+    padding: 0rem;
+    border: 1px solid rgb(86, 96, 172);
 }
+
+#About{
+    width: 100vw;
+    height: 100vh;
+    padding: 1%;
+    overflow: hidden;
+    text-align: center; 
+    border: 1px solid rgb(86, 96, 172);
+    margin-top:10%;
+    padding-top:10%;
+    background-image:url("images/about.jpg");
+}
+#Contact{
+    width: 100vw;
+    height: 100vh;
+    padding: 10%;
+    text-align: center;
+    border: 1px solid rgb(86, 96, 172);
+    background-image:url("images/contact.jpg");
+}
+#About h1 {
+   color:rgb(82, 222, 178);
+    padding-bottom:5%;
+}
+#About p {
+    padding-top:5%;
+    color:rgb(175, 97, 109);
+}
+#Team{
+    width: 100vw;
+    height: 100vh;
+    padding: 1%;
+    overflow: hidden;
+    text-align: center; 
+    border: 1px solid rgb(86, 96, 172);
+    padding-top:10%;
+    background-image:url("images/about.jpg");
+}
+#Team h1 {
+   color:rgb(82, 222, 178);
+    padding-bottom:5%; 
+}
+#Team p {
+    padding-top:5%;
+    color:rgb(175, 97, 109);
+    font-size:30px;
+}
+
+
+
+
+
